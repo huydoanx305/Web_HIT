@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    grid-gap: 2rem;
+}
+.box-h{
+    display: flex;
+    align-items: center;
+}
+.t{
+    display: flex;
+}
+.box-t{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.s1 {
+    display: flex;
+}
+.s2 {
+    display: flex;
+    justify-content: right;
+}
+
+.box{
+    width: 3rem;
+    height: 3rem;
+    background-color: orange;
+}

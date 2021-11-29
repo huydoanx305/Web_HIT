@@ -1,0 +1,126 @@
+body {
+    background-color: #4b4c4e;
+    color: #fff;
+}
+.header {
+    padding-top: 60px;
+    padding-left: 1.5rem;
+}
+.content img {
+    width: 100%;
+} 
+
+.text img {
+    width: 50px;
+}
+.text {
+    position: relative;
+    padding-bottom: 45px;
+}
+.text1::after{
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    bottom: 20px;
+}
+.tab1 {
+    padding-bottom: 67px;
+}
+.tab2 {
+    padding-bottom: 71px;
+}
+
+.content {
+    position: relative;
+}
+.content1::after {
+    content: '';
+    position: absolute;
+    border-right: 1px solid #fff;
+    height: 100%;
+    top: 0;
+    right: -20px;
+}
+
+.content2::after {
+    content: '';
+    position: absolute;
+    border-right: 1px solid #fff;
+    height: 90%;
+    top: 0;
+    right: -20px;
+}
+.content2::before {
+    content: '';
+    position: absolute;
+    border-right: 1px solid #fff;
+    height: 90%;
+    top: 0;
+    left: -20px;
+}
+
+@media screen and (max-width: 991px){
+    .text4::before{
+        content: '';
+        position: absolute;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        bottom: 20px;
+    }
+    .text4, 
+    .text2{
+        padding-bottom: 65px;
+    }
+    .text1::after{
+        width: 100%;
+    }
+    .content1::after {
+        height: 95%;
+    }
+    .content2::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .text1::after{
+        width: 95%;
+    }
+    .text4::before{
+        width: 95%;
+    }
+    .text5::before{
+        content: '';
+        position: absolute;
+        border-bottom: 1px solid #fff;
+        width: 95%;
+        bottom: 20px;
+    }
+    .text {
+        padding-bottom: 25px;
+    }
+    .text6 {
+        padding-top: 40px;
+    }
+    .text6::before {
+        content: '';
+        position: absolute;
+        border-bottom: 1px solid #fff;
+        width: 95%;
+        top: 20px;
+    }
+    .content1::after {
+        display: none;
+    }
+    .content2::after {
+        display: none;
+     }
+    .content2::before {
+       display: none;
+    }
+    .content img {
+        width: 95%;
+    }
+    
+}
