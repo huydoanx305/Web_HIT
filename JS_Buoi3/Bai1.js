@@ -6,7 +6,6 @@ const case2 = "hitclubhiuhiu";
 
 // case3
 const case3 = "aabb";
-
 const check = (case1) => {
     let map = {};
     for(const value of case1)
