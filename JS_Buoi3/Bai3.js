@@ -10,15 +10,13 @@
 //  ],
 //  isLive: true
 // }
-class Post {
-    constructor(title, body, author, views, comments, isLive) {
-        this.title = title;
-        this.body = body;
-        this.author = author;
-        this.views = views;
-        this.comments = comments;
-        this.isLive = isLive;
-    }
+function Post(title, body, author, views, comments, isLive) {
+    this.title = title;
+    this.body = body;
+    this.author = author;
+    this.views = views;
+    this.comments = comments;
+    this.isLive = isLive;
 }
 const post = new Post("ahihi", "anh Hoàng đzzz", "abc", 100, [{body: 'anh Huân đzzz',author: "lewlew"}, {body: 'anh Huân đzzz',author: "lewlew"}], true);
 console.log(post);
