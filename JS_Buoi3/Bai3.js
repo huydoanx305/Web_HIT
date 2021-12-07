@@ -10,6 +10,7 @@
 //  ],
 //  isLive: true
 // }
+
 function Post(title, body, author, views, comments, isLive) {
     this.title = title;
     this.body = body;
